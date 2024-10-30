@@ -1,0 +1,87 @@
+#chroma_googleanalytics-settings-container {
+    .cga_invalid_id {
+        input {
+            border: 1px #f00 solid;
+
+        }
+        &:after {
+            content:"Tracking ID invalid";
+            color:#f00;
+            padding-left:10px;
+        }
+
+    }
+    #setting-error-invalid-chroma_googleanalytics-id + form {
+        #chroma_googleanalytics-settings-section-section_1_start {
+            .form-table {
+                td {
+                    input {
+                        //border: 2px #f00 solid;
+                    }
+                    &:after {
+                    }
+                }
+
+
+            }
+
+        }
+
+    }
+    padding-right:20px;
+    &>h2 {
+        font-size: 2em;
+        margin-bottom:1em;
+    }
+    .chroma_googleanalytics-settings-subhead {
+        font-weight: normal;
+        font-size:1.6em;
+        margin:0;
+        margin-top:10px;
+    }
+    .chroma_googleanalytics-settings-subhead-text {
+        margin:0;
+        margin-bottom:5px;
+    }
+    .chroma_googleanalytics-settings-section-container {
+        background:#fff;
+        outline: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom:20px;
+        width:100%;
+        box-sizing: border-box;
+        h2 {
+            font-size:1.5em;
+            margin:0;
+            border:0px #ccc solid;
+            border-bottom-width: 1px;
+            padding-bottom: 4px;
+        }
+        .chroma_googleanalytics-settings-description {
+            margin:0;
+            margin-bottom:20px;
+        }
+        table {
+            tbody {
+                tr {
+                    th,td {
+                        vertical-align: middle;
+                        padding:0;
+                        padding-bottom:3px;
+                    }
+                    th {
+                        width:50px;
+                        white-space: nowrap;
+                        padding-right:20px;
+
+                    }
+                    td {
+
+                    }
+                }
+            }
+        }
+
+    }
+
+}
